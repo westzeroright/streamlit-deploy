@@ -22,7 +22,7 @@ collection = client.get_or_create_collection(
 import pandas as pd
 from tqdm import tqdm
 
-data = pd.read_csv("C:/Users/kt826/Desktop/ECONOQA.csv")
+data = pd.read_csv("ECONOQA.csv")
 data.sample(5)
 
 
