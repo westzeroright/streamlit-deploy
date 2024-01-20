@@ -5,7 +5,7 @@
 
 
 import chromadb
-client = chromadb.PersistentClient()
+client = chromadb.Client()
 
 
 # In[3]:
